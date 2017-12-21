@@ -8,10 +8,10 @@ Dark green: #28b485
 */
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/variables";
+@import "abstracts/variable";
 
 
-@import "base/animations";
+@import "base/animation";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
@@ -19,6 +19,7 @@ Dark green: #28b485
 
 @import "components/button";
 
+@import "layout/grid";
 @import "layout/header";
 
 
