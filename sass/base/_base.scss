@@ -1,0 +1,21 @@
+*, *::after,
+/* also to include after and before pseudo elements*/
+
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* automatically inherits whatever is set in the border box under body */
+}
+
+html {
+  //this defines what 1rem is
+  font-size: 62.5%;
+  /* expected px / default px to get the relative unit 10/16 = 0.625 = 62.5%
+  we convert it so that the user can change the font size and it actually gets scaled very well */
+}
+
+body{
+  box-sizing: border-box;
+}
+
