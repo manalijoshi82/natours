@@ -1,0 +1,8 @@
+//clearfix appends a sudo element after the element which will clear the float
+@mixin clearfix{
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
